@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="traffic-title"><button onclick="turnonSinal(30)">Sinal de trânsito</button></div>
+        <ul class="traffic-sinal">
+            <li class="stop"><button onclick="turnonLed('red')">Pare</button></li>
+            <li class="attemption"><button onclick="turnonLed('yellow')">Atenção</button></li>
+            <li class="go"><button onclick="turnonLed('green')">Pode ir</button></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
